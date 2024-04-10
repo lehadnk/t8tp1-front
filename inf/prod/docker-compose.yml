@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  t8tp1-front:
+    container_name: t8tp1-front
+    build:
+      dockerfile: ./inf/build/Dockerfile
+    entrypoint: node index.js
+
+  t8tp1-front-relay:
+    container_name: t8tp1-front-relay
+    image: nginx:latest
+    restart: always
+    env_file: .env
+    volumes:
+      - ./inf/prod/nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "80:80"
