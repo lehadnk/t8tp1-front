@@ -21,6 +21,6 @@ export const actions = {
             redirect(303, '/dashboard')
         }
 
-        return fail(400,{ hasError: true })
+        return fail(400,{ hasError: true, responseStatus: response.status, responseBody: response.json() })
     }
 }

@@ -5,6 +5,8 @@ services:
     build:
       dockerfile: ./inf/build/Dockerfile
     entrypoint: node index.js
+    environment:
+      - ORIGIN=https://t8tp1-front.lehadnk.com
 
   t8tp1-front-relay:
     container_name: t8tp1-front-relay
