@@ -95,30 +95,30 @@ onMount(() => {
         </tr>
         <tr>
             <td>G (расход реакционной массы)</td>
-            <td>{data.experiment.g}</td>
+            <td>{data.experiment.g} кг/ч</td>
         </tr>
         <tr>
             <td>A (давление в реакторе)</td>
-            <td>{data.experiment.a}</td>
+            <td>{data.experiment.a} Кпа</td>
         </tr>
         <tr>
             <td>N (скорость вращения мешалки)</td>
-            <td>{data.experiment.n}</td>
+            <td>{data.experiment.n} об/с</td>
         </tr>
         <tr>
             <td colspan="2"><b>Выходные параметры</b></td>
         </tr>
         <tr>
             <td>T1 (температура в змеевике)</td>
-            <td>{data.experiment.t1}</td>
+            <td>{data.experiment.t1} °C</td>
         </tr>
         <tr>
             <td>T2 (температура в рубашке)</td>
-            <td>{data.experiment.t2}</td>
+            <td>{data.experiment.t2} °C</td>
         </tr>
         <tr>
             <td>S (количество получаемого целевого компонента)</td>
-            <td>{data.experiment.s}</td>
+            <td>{data.experiment.s} кг</td>
         </tr>
     </table>
 </div>

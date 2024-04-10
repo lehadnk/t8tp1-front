@@ -29,12 +29,12 @@
             <td>{alpha}</td>
             <td>{beta}</td>
             <td>{mu}</td>
-            <td>{g}</td>
-            <td>{a}</td>
-            <td>{n}</td>
-            <td>{t1}</td>
-            <td>{t2}</td>
-            <td>{s}</td>
+            <td>{g} кг/ч</td>
+            <td>{a} Кпа</td>
+            <td>{n} об/с</td>
+            <td>{t1} °C</td>
+            <td>{t2} °C</td>
+            <td>{s} кг</td>
             <td>
                 <div class="ui basic buttons">
                     <a href="/dashboard/experiments/{id}" class="ui button">Просмотр</a>

@@ -47,12 +47,12 @@
             <td>{alpha}</td>
             <td>{beta}</td>
             <td>{mu}</td>
-            <td>{g}</td>
-            <td>{a}</td>
-            <td>{n}</td>
+            <td>{g} кг/ч</td>
+            <td>{a} Кпа</td>
+            <td>{n} об/с</td>
             <td>
                 <div class="ui basic buttons">
-                    <div class="ui button" on:click={() => calculate({id})} on:keypress={() => calculate({id})} role="button" tabindex="-10">Расчитать</div>
+                    <div class="ui button" on:click={() => calculate({id})} on:keypress={() => calculate({id})} role="button" tabindex="-10">Рассчитать</div>
                     <a href="/dashboard/coefficients/{id}/" class="ui button">Редактировать</a>
                 </div>
             </td>
