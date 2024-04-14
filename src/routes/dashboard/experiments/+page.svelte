@@ -20,6 +20,7 @@
             <th>T1</th>
             <th>T2</th>
             <th>S</th>
+            <th>L</th>
             <th>Действия</th>
         </tr></thead>
         <tbody>
@@ -35,6 +36,7 @@
             <td>{t1} °C</td>
             <td>{t2} °C</td>
             <td>{s} кг</td>
+            <td>{s * 100} у.е.</td>
             <td>
                 <div class="ui basic buttons">
                     <a href="/dashboard/experiments/{id}" class="ui button">Просмотр</a>

@@ -120,6 +120,10 @@ onMount(() => {
             <td>S (количество получаемого целевого компонента)</td>
             <td>{data.experiment.s} кг</td>
         </tr>
+        <tr>
+            <td>L (прибыль от продажи целевого компонента)</td>
+            <td>{data.experiment.s * 100} у.е.</td>
+        </tr>
     </table>
 </div>
 <div class="ui one column center aligned page grid">
